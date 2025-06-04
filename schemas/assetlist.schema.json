@@ -1,0 +1,55 @@
+{
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/asset"
+  },
+  "minItems": 1,
+  "$defs": {
+    "asset": {
+      "type": "object",
+      "properties": {
+        "protocol": {
+          "type": "string",
+          "description": "The protocol name used for displaying purposes only"
+        },
+        "denom": {
+          "type": "string",
+          "description": "The denom of an asset"
+        },
+        "symbol": {
+          "type": "string",
+          "description": "The symbol of an asset. eg: ORO"
+        },
+        "exponent": {
+          "type": "integer"
+        },
+        "description": {
+          "type": "string"
+        },
+        "base": {
+          "type": "string",
+          "description": "The token address or denom"
+        },
+        "display": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "uri": {
+          "type": "string",
+          "description": "The logo of the token"
+        },
+        "token_type": {
+          "type": "string"
+        },
+        "coingeckoId": {
+          "type": "string",
+          "description": "The type of the token. eg: native, cw20"
+        }
+      },
+      "required": ["protocol", "symbol", "denom", "exponent"],
+      "additionalProperties": false
+    }
+  }
+}
