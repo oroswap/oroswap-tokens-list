@@ -24,7 +24,8 @@
         "name": "coin.zig18sytwc03z5j3wge5egf4rdue6gxkzzyf4658vq.devnet102",
         "uri": "https://azure-elaborate-baboon-113.mypinata.cloud/ipfs/QmY9u8sgXg9ZtjNLg6G7JvbLdemKRfJPGEhLNDTFuN1mvT",
         "uri_hash": "4b032bc22eded21d6da79c574129b4b0f0362b5c0ae7e73e1a0dfc047ca87157",
-        "token_type": "native"
+        "token_type": "native",
+        "coingeckoId": ""
     },
     {
         "protocol": "zigchain",
