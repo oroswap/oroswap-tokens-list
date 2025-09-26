@@ -11,6 +11,24 @@
         "uri": "",
         "uri_hash": "",
         "token_type": "native",
-        "coingeckoId": ""
+        "coingeckoId": "",
+        "originDenom": "",
+        "originChainId": ""
+    },
+    {
+        "protocol": "noble",
+        "denom": "ibc/5260516290F7883EC893AADA09A6B8CEC790F2EEF3196F440037908749785BE8",
+        "symbol": "USDC",
+        "exponent": 6,
+        "description": "IBC token from transfer/channel-44/uusdc",
+        "base": "ibc/5260516290F7883EC893AADA09A6B8CEC790F2EEF3196F440037908749785BE8",
+        "display": "transfer/channel-44/uusdc",
+        "name": "transfer/channel-44/uusdc IBC token",
+        "uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+        "uri_hash": "",
+        "token_type": "native",
+        "coingeckoId": "usd-coin",
+        "originDenom": "uusdc",
+        "originChainId": "noble-1"
     }
 ]
