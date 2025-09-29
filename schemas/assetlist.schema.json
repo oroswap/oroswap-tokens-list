@@ -23,29 +23,25 @@
         "exponent": {
           "type": "integer"
         },
-        "description": {
-          "type": "string"
-        },
-        "base": {
-          "type": "string",
-          "description": "The token address or denom"
-        },
-        "display": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
         "uri": {
           "type": "string",
           "description": "The logo of the token"
         },
         "token_type": {
-          "type": "string"
+          "type": "string",
+          "description": "The type of the token. eg: native, cw20"
         },
         "coingeckoId": {
           "type": "string",
-          "description": "The type of the token. eg: native, cw20"
+          "description": "coingecko id"
+        },
+        "originDenom": {
+          "type": "string",
+          "description": "origin denom of the token"
+        },
+        "originChainId": {
+          "type": "string",
+          "description": "origin ChainId of the token"
         }
       },
       "required": ["protocol", "symbol", "denom", "exponent"],
