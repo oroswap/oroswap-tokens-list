@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "protocol": "noble",
+        "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+        "symbol": "USDC",
+        "exponent": 6,
+        "uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/USDCoin.png",
+        "token_type": "native",
+        "coingeckoId": "usd-coin",
+        "originDenom": "uusdc",
+        "originChainId": "noble-1"
+    }
+]
