@@ -9,5 +9,16 @@
         "coingeckoId": "usd-coin",
         "originDenom": "uusdc",
         "originChainId": "noble-1"
+    },
+     {
+        "protocol": "Cosmos Hub",
+        "denom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+        "symbol": "ATOM",
+        "exponent": 6,
+        "uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+        "token_type": "native",
+        "coingeckoId": "cosmos",
+        "originDenom": "uatom",
+        "originChainId": "cosmoshub-4"
     }
 ]
